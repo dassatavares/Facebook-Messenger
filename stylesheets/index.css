@@ -1,0 +1,88 @@
+a, li, button, input {
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  list-style-type: none; }
+
+.menu {
+  padding: 40px 0 10px 0;
+  font-size: 0.9em; }
+  .menu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .menu img {
+    width: 2.5em;
+    height: auto; }
+  .menu ul {
+    display: flex;
+    margin: 0; }
+    .menu ul li {
+      font-weight: 500;
+      margin: 0 15px;
+      border-bottom: 3px solid transparent; }
+      .menu ul li:hover {
+        width: auto;
+        border-bottom: 3px solid #1a76f2; }
+      .menu ul li a {
+        color: #000;
+        text-decoration: none; }
+
+.mensagem {
+  margin: 100px 0 0 0; }
+  .mensagem h1 {
+    line-height: 1.2;
+    font-size: 3.5em;
+    font-weight: bold;
+    background-image: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .mensagem p {
+    margin: 10px 0 40px 0;
+    color: #494949; }
+  .mensagem button {
+    color: #fff;
+    background: #1a76f2;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin: 0 0 40px 0; }
+    .mensagem button span {
+      font-weight: bold; }
+  .mensagem .social {
+    width: 30%;
+    height: auto;
+    margin: 15px 0; }
+  .mensagem img {
+    width: 100%;
+    height: auto;
+    margin: 15px 0; }
+
+.insta_messenger {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 1.5em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(84.06deg, #0088FF -28.62%, #A033FF 36.39%, #FF5C87 98.74%); }
+  .insta_messenger .row {
+    justify-content: center;
+    align-items: center; }
+  .insta_messenger img {
+    width: 6em;
+    height: auto;
+    margin: 5px 10px 5px 0; }
+  .insta_messenger p {
+    margin: 0; }
+  .insta_messenger a {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bold; }
+    .insta_messenger a:hover {
+      color: #c75000; }
+  .insta_messenger button {
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    background: transparent; }
