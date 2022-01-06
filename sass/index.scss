@@ -96,6 +96,25 @@ a, li, button, input{
 
 }
 
+.footer{
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    small{
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 0.8em;
+        margin: 0 10px;
+    }
+   
+}
+
 .insta_messenger{
     position: fixed;
     bottom: 0;
